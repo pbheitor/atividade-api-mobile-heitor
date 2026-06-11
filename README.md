@@ -1,32 +1,36 @@
-# [cite_start]Buscador de Bandas 
+# Buscador de Bandas 
 
-## [cite_start]Descrição 
+## Descrição 
 Aplicativo Android capaz de consultar álbuns de artistas musicais. O usuário informa o nome de uma banda e o app retorna os principais lançamentos organizados por ano e gênero musical.
 
-## [cite_start]API utilizada 
-- [cite_start]Nome da API: iTunes Search API 
-- [cite_start]Endpoint utilizado: /search 
-- [cite_start]Exemplo de URL consultada: https://itunes.apple.com/search?term=Deftones&entity=album&limit=3 
-- [cite_start]Principais dados retornados: Nome do álbum, gênero musical e ano de lançamento.
+## API utilizada 
+- Nome da API: iTunes Search API 
+- Endpoint utilizado: /search 
+- Exemplo de URL consultada: https://itunes.apple.com/search?term=Deftones&entity=album&limit=3 
+-  Principais dados retornados: Nome do álbum, gênero musical e ano de lançamento.
 
-## [cite_start]Funcionalidades 
-- [cite_start]Entrada de dados pelo usuário 
-- [cite_start]Validação de campo vazio 
-- [cite_start]Consulta a uma API pública 
-- [cite_start]Exibição dos dados retornados 
-- [cite_start]Tratamento básico de erro 
+## Funcionalidades 
+- Entrada de dados pelo usuário 
+- Validação de campo vazio 
+- Consulta a uma API pública 
+- Exibição dos dados retornados 
+- Tratamento básico de erro 
 
-## [cite_start]Tecnologias utilizadas 
-- [cite_start]Kotlin 
-- [cite_start]Android Studio 
-- [cite_start]XML 
-- [cite_start]Biblioteca de requisição utilizada: Volley 
-- [cite_start]API pública escolhida: iTunes Search 
+## Tecnologias utilizadas 
+- Kotlin 
+- Android Studio 
+- XML 
+- Biblioteca de requisição utilizada: Volley 
+   API pública escolhida: iTunes Search 
 
-## [cite_start]Permissões utilizadas 
-[cite_start]O aplicativo utiliza a permissão INTERNET para realizar requisições à API pública.
+## Permissões utilizadas 
+O aplicativo utiliza a permissão INTERNET para realizar requisições à API pública.
 ```xml
 
 ## Prints do aplicativo
+<img width="396" height="845" alt="banda_2" src="https://github.com/user-attachments/assets/b120e7ef-de7b-41d3-9bf3-6a774e603245" />
+<img width="412" height="862" alt="banda_1" src="https://github.com/user-attachments/assets/7c22ea95-a759-40ef-8434-184e5403f55f" />
+
+
 
 <uses-permission android:name="android.permission.INTERNET" />
