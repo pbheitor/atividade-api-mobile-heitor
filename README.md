@@ -26,4 +26,7 @@ Aplicativo Android capaz de consultar álbuns de artistas musicais. O usuário i
 ## [cite_start]Permissões utilizadas 
 [cite_start]O aplicativo utiliza a permissão INTERNET para realizar requisições à API pública.
 ```xml
+
+## Prints do aplicativo
+
 <uses-permission android:name="android.permission.INTERNET" />
