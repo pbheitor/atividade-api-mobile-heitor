@@ -25,7 +25,6 @@ Aplicativo Android capaz de consultar álbuns de artistas musicais. O usuário i
 
 ## Permissões utilizadas 
 O aplicativo utiliza a permissão INTERNET para realizar requisições à API pública.
-```xml
 
 ## Prints do aplicativo
 <img width="396" height="845" alt="banda_2" src="https://github.com/user-attachments/assets/b120e7ef-de7b-41d3-9bf3-6a774e603245" />
@@ -34,3 +33,6 @@ O aplicativo utiliza a permissão INTERNET para realizar requisições à API p�
 
 
 <uses-permission android:name="android.permission.INTERNET" />
+```xml
+
+
